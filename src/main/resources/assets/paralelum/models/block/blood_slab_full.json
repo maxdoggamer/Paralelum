@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "paralelum:blocks/blood_planks",
+    "top": "paralelum:blocks/blood_planks",
+    "side": "paralelum:blocks/blood_planks"
+  }
+}

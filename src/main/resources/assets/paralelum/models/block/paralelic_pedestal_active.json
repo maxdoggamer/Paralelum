@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paralelum:blocks/paralelic_pedestal_top_base",
+    "up": "paralelum:blocks/paralelicpedestalan",
+    "north": "paralelum:blocks/paralelic_pedestal_base",
+    "east": "paralelum:blocks/paralelic_pedestal_base",
+    "south": "paralelum:blocks/paralelic_pedestal_base",
+    "west": "paralelum:blocks/paralelic_pedestal_base",
+    "particle": "paralelum:blocks/paralelic_pedestal_top_base"
+  }
+}

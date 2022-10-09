@@ -1,0 +1,580 @@
+{
+  "mod_elements": [
+    {
+      "name": "ParalelicPedestal",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelic_pedestal"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "BloodWood",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_wood"
+    },
+    {
+      "name": "BloodLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_log"
+    },
+    {
+      "name": "BloodPlanks",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_planks"
+    },
+    {
+      "name": "BloodLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_leaves"
+    },
+    {
+      "name": "BloodStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_stairs"
+    },
+    {
+      "name": "BloodSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_slab"
+    },
+    {
+      "name": "BloodFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_fence"
+    },
+    {
+      "name": "BloodFenceGate",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_fence_gate"
+    },
+    {
+      "name": "BloodPressurePlate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pressure_plate"
+    },
+    {
+      "name": "BloodButton",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_button"
+    },
+    {
+      "name": "BloodItemsTag",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_items_tag"
+    },
+    {
+      "name": "BloodWoodRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_wood_recipe"
+    },
+    {
+      "name": "BloodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_planks_recipe"
+    },
+    {
+      "name": "BloodStairsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_stairs_recipe"
+    },
+    {
+      "name": "BloodSlabRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_slab_recipe"
+    },
+    {
+      "name": "BloodFenceRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_fence_recipe"
+    },
+    {
+      "name": "BloodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_fence_gate_recipe"
+    },
+    {
+      "name": "BloodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pressure_plate_recipe"
+    },
+    {
+      "name": "BloodButtonRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_button_recipe"
+    },
+    {
+      "name": "BloodStickRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_stick_recipe"
+    },
+    {
+      "name": "BloodForest",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_forest"
+    },
+    {
+      "name": "CrawlerFang",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crawler_fang"
+    },
+    {
+      "name": "BloodCrawlerDrop",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_crawler_drop"
+    },
+    {
+      "name": "BloodCrawler",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_crawler"
+    },
+    {
+      "name": "Bloodiamond",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond"
+    },
+    {
+      "name": "BloodiamondOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_ore"
+    },
+    {
+      "name": "BloodiamondBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_block"
+    },
+    {
+      "name": "BloodiamondOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_ore_block_recipe"
+    },
+    {
+      "name": "BloodiamondBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_block_ore_recipe"
+    },
+    {
+      "name": "BloodiamondOreSmelting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_ore_smelting"
+    },
+    {
+      "name": "BloodiamondPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_pickaxe"
+    },
+    {
+      "name": "BloodiamondAxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_axe"
+    },
+    {
+      "name": "BloodiamondSword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_sword"
+    },
+    {
+      "name": "BloodiamondShovel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_shovel"
+    },
+    {
+      "name": "BloodiamondHoe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_hoe"
+    },
+    {
+      "name": "BloodiamondPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_pickaxe_recipe"
+    },
+    {
+      "name": "BloodiamondAxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_axe_recipe"
+    },
+    {
+      "name": "BloodiamondSwordRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_sword_recipe"
+    },
+    {
+      "name": "BloodiamondShovelRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_shovel_recipe"
+    },
+    {
+      "name": "BloodiamondHoeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodiamond_hoe_recipe"
+    },
+    {
+      "name": "Crawler",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crawler",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BloodVisionDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_vision_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodVision",
+      "type": "overlay",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_vision"
+    },
+    {
+      "name": "ParalelicPedestalActive",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelic_pedestal_active"
+    },
+    {
+      "name": "Id30299302993ERRORErrorErrorErrorIncorrectVar",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_30299302993_error_error_error_error_incorrect_var"
+    },
+    {
+      "name": "ParalelicPedestalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelic_pedestal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrawlerHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crawler_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ParalelumPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelum_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ParalelumPlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelum_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Paralelum",
+      "type": "dimension",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelum",
+      "metadata": {
+        "ep": false
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.paralelum.blood_fence_gate": "Blood Fence Gate",
+      "biome.paralelum.blood_forest": "Blood Forest",
+      "item.paralelum.id_30299302993_error_error_error_error_incorrect_var": "παράλληλος",
+      "block.paralelum.blood_wood": "Blood Wood",
+      "item.paralelum.bloodiamond_pickaxe": "Bloodiamond Pickaxe",
+      "item.paralelum.bloodiamond_sword": "Bloodiamond Sword",
+      "item.paralelum.crawler_chestplate": "Crawler Body",
+      "item.paralelum.bloodiamond_hoe": "Bloodiamond Hoe",
+      "block.paralelum.paralelic_pedestal_active": "Paralelic Pedestal",
+      "item.paralelum.paralelum": "Paralelum Portal Igniter",
+      "block.paralelum.blood_leaves": "Blood Leaves",
+      "item.paralelum.bloodiamond_axe": "Bloodiamond Axe",
+      "block.paralelum.blood_fence": "Blood Fence",
+      "block.paralelum.blood_stairs": "Blood Stairs",
+      "block.paralelum.blood_pressure_plate": "Blood Pressure Plate",
+      "block.paralelum.blood_slab": "Blood Slab",
+      "block.paralelum.blood_log": "Blood Log",
+      "block.paralelum.bloodiamond_block": "Block of Bloodiamond",
+      "item.paralelum.bloodiamond": "Bloodiamond",
+      "block.paralelum.blood_button": "Blood Button",
+      "item.paralelum.bloodiamond_shovel": "Bloodiamond Shovel",
+      "item.paralelum.crawler_helmet": "Crawler Helmet",
+      "item.paralelum.crawler_leggings": "Crawler Leggings",
+      "block.paralelum.blood_planks": "Blood Planks",
+      "item.paralelum.blood_crawler_spawn_egg": "Blood Crawler Spawn Egg",
+      "item.paralelum.crawler_boots": "Crawler Boots",
+      "block.paralelum.paralelic_pedestal": "Paralelic Pedestal",
+      "block.paralelum.bloodiamond_ore": "Bloodiamond Ore",
+      "entity.paralelum.blood_crawler": "Blood Crawler",
+      "item.paralelum.crawler_fang": "Crawler Fang"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paralelum",
+    "modName": "Paralelum",
+    "version": "1.0.0",
+    "author": "Patricia, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.paralelum",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

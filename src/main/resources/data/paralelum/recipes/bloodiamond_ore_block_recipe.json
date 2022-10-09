@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "paralelum:bloodiamond"
+    },
+    "1": {
+      "item": "paralelum:bloodiamond"
+    },
+    "2": {
+      "item": "paralelum:bloodiamond"
+    },
+    "3": {
+      "item": "paralelum:bloodiamond"
+    },
+    "4": {
+      "item": "paralelum:bloodiamond"
+    },
+    "5": {
+      "item": "paralelum:bloodiamond"
+    },
+    "6": {
+      "item": "paralelum:bloodiamond"
+    },
+    "7": {
+      "item": "paralelum:bloodiamond"
+    },
+    "8": {
+      "item": "paralelum:bloodiamond"
+    }
+  },
+  "result": {
+    "item": "paralelum:bloodiamond_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "paralelum:block/blood_slab"
+    },
+    "type=top": {
+      "model": "paralelum:block/blood_slab_top"
+    },
+    "type=double": {
+      "model": "paralelum:block/blood_slab_full"
+    }
+  }
+}

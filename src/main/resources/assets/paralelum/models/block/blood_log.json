@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paralelum:blocks/blood_log_top",
+    "up": "paralelum:blocks/blood_log_top",
+    "north": "paralelum:blocks/blood_log_side",
+    "east": "paralelum:blocks/blood_log_side",
+    "south": "paralelum:blocks/blood_log_side",
+    "west": "paralelum:blocks/blood_log_side",
+    "particle": "paralelum:blocks/blood_log_top"
+  }
+}

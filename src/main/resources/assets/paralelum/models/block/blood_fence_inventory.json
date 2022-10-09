@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "paralelum:blocks/blood_planks",
+    "particle": "paralelum:blocks/blood_planks"
+  }
+}

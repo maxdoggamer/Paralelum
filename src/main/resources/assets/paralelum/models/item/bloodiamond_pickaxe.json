@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "paralelum:items/bloodiamond_pickaxe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paralelum:block/paralelic_pedestal"
+    },
+    "facing=east": {
+      "model": "paralelum:block/paralelic_pedestal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paralelum:block/paralelic_pedestal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paralelum:block/paralelic_pedestal",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "paralelum:blood_planks"
+    }
+  ],
+  "result": {
+    "item": "paralelum:blood_button",
+    "count": 1
+  }
+}

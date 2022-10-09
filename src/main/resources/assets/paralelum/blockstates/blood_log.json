@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "paralelum:block/blood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "paralelum:block/blood_log"
+    },
+    "axis=z": {
+      "model": "paralelum:block/blood_log",
+      "x": 90
+    }
+  }
+}

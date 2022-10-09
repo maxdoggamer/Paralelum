@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:blood_log"
+    }
+  ],
+  "result": {
+    "item": "paralelum:blood_planks",
+    "count": 4
+  }
+}

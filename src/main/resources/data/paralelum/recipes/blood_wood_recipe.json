@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "paralelum:blood_log"
+    },
+    "1": {
+      "item": "paralelum:blood_log"
+    },
+    "2": {
+      "item": "paralelum:blood_log"
+    },
+    "3": {
+      "item": "paralelum:blood_log"
+    }
+  },
+  "result": {
+    "item": "paralelum:blood_wood",
+    "count": 3
+  }
+}

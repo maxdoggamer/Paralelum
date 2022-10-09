@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "paralelum:blocks/blood_planks",
+    "particle": "paralelum:blocks/blood_planks"
+  }
+}
