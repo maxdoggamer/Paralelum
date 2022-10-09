@@ -351,31 +351,6 @@
       }
     },
     {
-      "name": "BloodVisionDisplayOverlayIngame",
-      "type": "procedure",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_vision_display_overlay_ingame",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "BloodVision",
-      "type": "overlay",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_vision"
-    },
-    {
       "name": "ParalelicPedestalActive",
       "type": "block",
       "sortid": 44,
@@ -549,6 +524,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "ERRORRECIPE",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorrecipe"
     }
   ],
   "variable_elements": [],

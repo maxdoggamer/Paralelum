@@ -38,7 +38,7 @@
     "hardness": 3.0,
     "resistance": 2.766323734445183,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
@@ -50,7 +50,7 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {

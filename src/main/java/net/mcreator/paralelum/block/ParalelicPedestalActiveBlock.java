@@ -32,7 +32,7 @@ public class ParalelicPedestalActiveBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ParalelicPedestalActiveBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.SCULK_SENSOR).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.SCULK_SENSOR).strength(1f, 1000000000f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
