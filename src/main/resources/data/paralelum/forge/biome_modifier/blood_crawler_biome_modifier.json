@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "paralelum:blood_forest",
+  "spawners": {
+    "type": "paralelum:blood_crawler",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

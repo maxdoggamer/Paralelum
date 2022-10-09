@@ -3,5 +3,6 @@
   "textures": {
     "all": "paralelum:blocks/bloodiamond_ore_block",
     "particle": "paralelum:blocks/bloodiamond_ore_block"
-  }
+  },
+  "render_type": "solid"
 }

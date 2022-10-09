@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BloodSlabBlock extends SlabBlock {
 	public BloodSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.5f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.5f).dynamicShape());
 	}
 
 	@Override

@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class BloodFenceBlock extends FenceBlock {
 	public BloodFenceBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.5f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.5f).dynamicShape());
 	}
 
 	@Override

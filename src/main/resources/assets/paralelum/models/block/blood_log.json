@@ -8,5 +8,6 @@
     "south": "paralelum:blocks/blood_log_side",
     "west": "paralelum:blocks/blood_log_side",
     "particle": "paralelum:blocks/blood_log_top"
-  }
+  },
+  "render_type": "solid"
 }

@@ -3,5 +3,6 @@
   "textures": {
     "all": "paralelum:blocks/blood_log_side",
     "particle": "paralelum:blocks/blood_log_side"
-  }
+  },
+  "render_type": "solid"
 }

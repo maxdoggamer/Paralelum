@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:nether_wart_block",
+    "minecraft:dirt"
+  ]
+}

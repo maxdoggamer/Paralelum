@@ -8,5 +8,6 @@
     "south": "paralelum:blocks/paralelic_pedestal_base",
     "west": "paralelum:blocks/paralelic_pedestal_base",
     "particle": "paralelum:blocks/paralelic_pedestal_top_base"
-  }
+  },
+  "render_type": "solid"
 }

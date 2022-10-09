@@ -21,7 +21,7 @@ import net.mcreator.paralelum.ParalelumMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ParalelumModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, ParalelumMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ParalelumMod.MODID);
 	public static final RegistryObject<EntityType<BloodCrawlerEntity>> BLOOD_CRAWLER = register("blood_crawler",
 			EntityType.Builder.<BloodCrawlerEntity>of(BloodCrawlerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BloodCrawlerEntity::new)
