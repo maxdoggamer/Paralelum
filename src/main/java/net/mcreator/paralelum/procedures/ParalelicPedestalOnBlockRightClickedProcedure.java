@@ -18,7 +18,7 @@ public class ParalelicPedestalOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 				.getItem() == ParalelumModItems.ID_30299302993_ERROR_ERROR_ERROR_ERROR_INCORRECT_VAR.get()) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);

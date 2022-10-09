@@ -517,6 +517,22 @@
       "metadata": {
         "ep": false
       }
+    },
+    {
+      "name": "ParalelicPedestalActiveOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paralelic_pedestal_active_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -526,11 +542,11 @@
       "block.paralelum.blood_fence_gate": "Blood Fence Gate",
       "biome.paralelum.blood_forest": "Blood Forest",
       "item.paralelum.id_30299302993_error_error_error_error_incorrect_var": "παράλληλος",
-      "block.paralelum.blood_wood": "Blood Wood",
-      "item.paralelum.bloodiamond_pickaxe": "Bloodiamond Pickaxe",
       "item.paralelum.bloodiamond_sword": "Bloodiamond Sword",
-      "item.paralelum.crawler_chestplate": "Crawler Body",
+      "item.paralelum.bloodiamond_pickaxe": "Bloodiamond Pickaxe",
+      "block.paralelum.blood_wood": "Blood Wood",
       "item.paralelum.bloodiamond_hoe": "Bloodiamond Hoe",
+      "item.paralelum.crawler_chestplate": "Crawler Body",
       "block.paralelum.paralelic_pedestal_active": "Paralelic Pedestal",
       "item.paralelum.paralelum": "Paralelum Portal Igniter",
       "block.paralelum.blood_leaves": "Blood Leaves",
