@@ -78,7 +78,7 @@ public class ParalelicPedestalActiveBlock extends Block {
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		ParalelicPedestalActiveOnBlockRightClickedProcedure.execute(entity);
+		ParalelicPedestalActiveOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }
