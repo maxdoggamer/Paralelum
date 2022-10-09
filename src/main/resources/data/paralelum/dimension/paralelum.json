@@ -88,7 +88,16 @@
           }
         },
         {
-          "biome": "end_midlands"
+          "biome": "end_midlands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "weirdness": 0,
+            "erosion": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "flower_forest",
@@ -664,7 +673,16 @@
           }
         },
         {
-          "biome": "warped_forest"
+          "biome": "warped_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.375
+          }
         },
         {
           "biome": "frozen_river",
@@ -910,7 +928,16 @@
           }
         },
         {
-          "biome": "nether_wastes"
+          "biome": "nether_wastes",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "paralelum:blood_forest",
@@ -967,10 +994,28 @@
           }
         },
         {
-          "biome": "soul_sand_valley"
+          "biome": "soul_sand_valley",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
-          "biome": "small_end_islands"
+          "biome": "small_end_islands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "weirdness": 0,
+            "erosion": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "plains",
@@ -1027,7 +1072,16 @@
           }
         },
         {
-          "biome": "end_highlands"
+          "biome": "end_highlands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "weirdness": 0,
+            "erosion": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "meadow",
@@ -1057,7 +1111,16 @@
           }
         },
         {
-          "biome": "end_barrens"
+          "biome": "end_barrens",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "weirdness": 0,
+            "erosion": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "old_growth_spruce_taiga",
@@ -1087,7 +1150,16 @@
           }
         },
         {
-          "biome": "basalt_deltas"
+          "biome": "basalt_deltas",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.175
+          }
         },
         {
           "biome": "taiga",
@@ -1117,7 +1189,16 @@
           }
         },
         {
-          "biome": "crimson_forest"
+          "biome": "crimson_forest",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "snowy_taiga",
@@ -1309,7 +1390,16 @@
           }
         },
         {
-          "biome": "the_void"
+          "biome": "the_void",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "weirdness": 0,
+            "erosion": 0,
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "windswept_forest",
