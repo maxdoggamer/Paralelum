@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class BloodStairsBlock extends StairBlock {
 	public BloodStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 3f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 3f).dynamicShape());
 	}
 
 	@Override

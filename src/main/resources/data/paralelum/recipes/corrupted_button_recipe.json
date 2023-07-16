@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "paralelum:corrupted_planks"
+    }
+  ],
+  "result": {
+    "item": "paralelum:corrupted_button",
+    "count": 1
+  }
+}

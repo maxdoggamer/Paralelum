@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paralelum:blocks/corrupted_log_top",
+    "up": "paralelum:blocks/corrupted_log_top",
+    "north": "paralelum:blocks/corrupted_log_side",
+    "east": "paralelum:blocks/corrupted_log_side",
+    "south": "paralelum:blocks/corrupted_log_side",
+    "west": "paralelum:blocks/corrupted_log_side",
+    "particle": "paralelum:blocks/corrupted_log_top"
+  },
+  "render_type": "solid"
+}

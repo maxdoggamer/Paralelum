@@ -3,6 +3,5 @@
   "textures": {
     "all": "paralelum:blocks/blood_leaves",
     "particle": "paralelum:blocks/blood_leaves"
-  },
-  "render_type": "solid"
+  }
 }

@@ -3,6 +3,9 @@
   "values": [
     "paralelum:blood_wood",
     "paralelum:blood_log",
-    "paralelum:blood_planks"
+    "paralelum:blood_planks",
+    "paralelum:corrupted_wood",
+    "paralelum:corrupted_log",
+    "paralelum:corrupted_planks"
   ]
 }

@@ -15,5 +15,5 @@ import net.mcreator.paralelum.ParalelumMod;
 
 public class ParalelumModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, ParalelumMod.MODID);
-	public static final RegistryObject<Biome> BLOOD_FOREST = REGISTRY.register("blood_forest", () -> BloodForestBiome.createBiome());
+	public static final RegistryObject<Biome> BLOOD_FOREST = REGISTRY.register("blood_forest", BloodForestBiome::createBiome);
 }

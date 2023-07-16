@@ -6,7 +6,15 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "paralelic_pedestal"
+      "registry_name": "paralelic_pedestal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/paralelic_pedestal.json",
+          "src/main/java/net/mcreator/paralelum/block/ParalelicPedestalBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/paralelic_pedestal.json",
+          "src/main/resources/assets/paralelum/models/block/paralelic_pedestal.json"
+        ]
+      }
     },
     {
       "name": "DirtBlocks",
@@ -14,7 +22,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dirt_blocks"
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/dirt.json"
+        ]
+      }
     },
     {
       "name": "BloodWood",
@@ -22,7 +35,15 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_wood"
+      "registry_name": "blood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/blood_wood.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodWoodBlock.java",
+          "src/main/resources/assets/paralelum/models/item/blood_wood.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_wood.json"
+        ]
+      }
     },
     {
       "name": "BloodLog",
@@ -30,7 +51,15 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_log"
+      "registry_name": "blood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/blood_log.json",
+          "src/main/resources/assets/paralelum/models/block/blood_log.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodLogBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/blood_log.json"
+        ]
+      }
     },
     {
       "name": "BloodPlanks",
@@ -38,7 +67,15 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_planks"
+      "registry_name": "blood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/BloodPlanksBlock.java",
+          "src/main/resources/assets/paralelum/models/item/blood_planks.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_planks.json",
+          "src/main/resources/assets/paralelum/models/block/blood_planks.json"
+        ]
+      }
     },
     {
       "name": "BloodLeaves",
@@ -46,7 +83,15 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_leaves"
+      "registry_name": "blood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/blockstates/blood_leaves.json",
+          "src/main/resources/assets/paralelum/models/item/blood_leaves.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodLeavesBlock.java",
+          "src/main/resources/assets/paralelum/models/block/blood_leaves.json"
+        ]
+      }
     },
     {
       "name": "BloodStairs",
@@ -54,7 +99,17 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_stairs"
+      "registry_name": "blood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/blood_stairs_outer.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_stairs.json",
+          "src/main/resources/assets/paralelum/models/block/blood_stairs.json",
+          "src/main/resources/assets/paralelum/models/item/blood_stairs.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodStairsBlock.java",
+          "src/main/resources/assets/paralelum/models/block/blood_stairs_inner.json"
+        ]
+      }
     },
     {
       "name": "BloodSlab",
@@ -62,7 +117,17 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_slab"
+      "registry_name": "blood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/blood_slab.json",
+          "src/main/resources/assets/paralelum/models/block/blood_slab_top.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_slab.json",
+          "src/main/resources/assets/paralelum/models/block/blood_slab.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodSlabBlock.java",
+          "src/main/resources/assets/paralelum/models/block/blood_slab_full.json"
+        ]
+      }
     },
     {
       "name": "BloodFence",
@@ -70,7 +135,17 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_fence"
+      "registry_name": "blood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/blood_fence_inventory.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodFenceBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/blood_fence.json",
+          "src/main/resources/assets/paralelum/models/block/blood_fence_post.json",
+          "src/main/resources/assets/paralelum/models/item/blood_fence.json",
+          "src/main/resources/assets/paralelum/models/block/blood_fence.json"
+        ]
+      }
     },
     {
       "name": "BloodFenceGate",
@@ -78,7 +153,18 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_fence_gate"
+      "registry_name": "blood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/BloodFenceGateBlock.java",
+          "src/main/resources/assets/paralelum/models/block/blood_fence_gate_wall.json",
+          "src/main/resources/assets/paralelum/models/item/blood_fence_gate.json",
+          "src/main/resources/assets/paralelum/models/block/blood_fence_gate_wall_open.json",
+          "src/main/resources/assets/paralelum/models/block/blood_fence_gate_open.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_fence_gate.json",
+          "src/main/resources/assets/paralelum/models/block/blood_fence_gate.json"
+        ]
+      }
     },
     {
       "name": "BloodPressurePlate",
@@ -86,7 +172,16 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_pressure_plate"
+      "registry_name": "blood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/blood_pressure_plate_down.json",
+          "src/main/resources/assets/paralelum/models/item/blood_pressure_plate.json",
+          "src/main/resources/assets/paralelum/models/block/blood_pressure_plate.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_pressure_plate.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodPressurePlateBlock.java"
+        ]
+      }
     },
     {
       "name": "BloodButton",
@@ -94,7 +189,17 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_button"
+      "registry_name": "blood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/blood_button.json",
+          "src/main/resources/assets/paralelum/models/item/blood_button.json",
+          "src/main/resources/assets/paralelum/models/block/blood_button_pressed.json",
+          "src/main/resources/assets/paralelum/blockstates/blood_button.json",
+          "src/main/java/net/mcreator/paralelum/block/BloodButtonBlock.java",
+          "src/main/resources/assets/paralelum/models/block/blood_button_inventory.json"
+        ]
+      }
     },
     {
       "name": "BloodItemsTag",
@@ -102,7 +207,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_items_tag"
+      "registry_name": "blood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/blood_log.json"
+        ]
+      }
     },
     {
       "name": "BloodWoodRecipe",
@@ -110,7 +220,12 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_wood_recipe"
+      "registry_name": "blood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_wood_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodPlanksRecipe",
@@ -118,7 +233,12 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_planks_recipe"
+      "registry_name": "blood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_planks_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodStairsRecipe",
@@ -126,7 +246,12 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_stairs_recipe"
+      "registry_name": "blood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_stairs_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodSlabRecipe",
@@ -134,7 +259,12 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_slab_recipe"
+      "registry_name": "blood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_slab_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodFenceRecipe",
@@ -142,7 +272,12 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_fence_recipe"
+      "registry_name": "blood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_fence_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodFenceGateRecipe",
@@ -150,7 +285,12 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_fence_gate_recipe"
+      "registry_name": "blood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_fence_gate_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodPressurePlateRecipe",
@@ -158,7 +298,12 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_pressure_plate_recipe"
+      "registry_name": "blood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_pressure_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodButtonRecipe",
@@ -166,7 +311,12 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_button_recipe"
+      "registry_name": "blood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_button_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodStickRecipe",
@@ -174,7 +324,12 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_stick_recipe"
+      "registry_name": "blood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/blood_stick_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodForest",
@@ -182,7 +337,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_forest"
+      "registry_name": "blood_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/world/biome/BloodForestBiome.java"
+        ]
+      }
     },
     {
       "name": "CrawlerFang",
@@ -190,7 +350,13 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crawler_fang"
+      "registry_name": "crawler_fang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/crawler_fang.json",
+          "src/main/java/net/mcreator/paralelum/item/CrawlerFangItem.java"
+        ]
+      }
     },
     {
       "name": "BloodCrawlerDrop",
@@ -198,7 +364,12 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_crawler_drop"
+      "registry_name": "blood_crawler_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/loot_tables/entities/blood_crawler.json"
+        ]
+      }
     },
     {
       "name": "BloodCrawler",
@@ -206,7 +377,15 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blood_crawler"
+      "registry_name": "blood_crawler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/entity/BloodCrawlerEntity.java",
+          "src/main/resources/assets/paralelum/models/item/blood_crawler_spawn_egg.json",
+          "src/main/java/net/mcreator/paralelum/client/renderer/BloodCrawlerRenderer.java",
+          "src/main/resources/data/paralelum/forge/biome_modifier/blood_crawler_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "Bloodiamond",
@@ -214,7 +393,13 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond"
+      "registry_name": "bloodiamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondItem.java",
+          "src/main/resources/assets/paralelum/models/item/bloodiamond.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondOre",
@@ -222,7 +407,15 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_ore"
+      "registry_name": "bloodiamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/BloodiamondOreBlock.java",
+          "src/main/resources/assets/paralelum/models/block/bloodiamond_ore.json",
+          "src/main/resources/assets/paralelum/blockstates/bloodiamond_ore.json",
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_ore.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondBlock",
@@ -230,7 +423,15 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_block"
+      "registry_name": "bloodiamond_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/BloodiamondBlockBlock.java",
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_block.json",
+          "src/main/resources/assets/paralelum/blockstates/bloodiamond_block.json",
+          "src/main/resources/assets/paralelum/models/block/bloodiamond_block.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondOreBlockRecipe",
@@ -238,7 +439,12 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_ore_block_recipe"
+      "registry_name": "bloodiamond_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondBlockOreRecipe",
@@ -246,7 +452,12 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_block_ore_recipe"
+      "registry_name": "bloodiamond_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondOreSmelting",
@@ -254,7 +465,12 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_ore_smelting"
+      "registry_name": "bloodiamond_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondPickaxe",
@@ -262,7 +478,13 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_pickaxe"
+      "registry_name": "bloodiamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_pickaxe.json",
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "BloodiamondAxe",
@@ -270,7 +492,13 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_axe"
+      "registry_name": "bloodiamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_axe.json",
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondAxeItem.java"
+        ]
+      }
     },
     {
       "name": "BloodiamondSword",
@@ -278,7 +506,13 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_sword"
+      "registry_name": "bloodiamond_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_sword.json",
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondSwordItem.java"
+        ]
+      }
     },
     {
       "name": "BloodiamondShovel",
@@ -286,7 +520,13 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_shovel"
+      "registry_name": "bloodiamond_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondShovelItem.java",
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_shovel.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondHoe",
@@ -294,7 +534,13 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_hoe"
+      "registry_name": "bloodiamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/item/BloodiamondHoeItem.java",
+          "src/main/resources/assets/paralelum/models/item/bloodiamond_hoe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondPickaxeRecipe",
@@ -302,7 +548,12 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_pickaxe_recipe"
+      "registry_name": "bloodiamond_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondAxeRecipe",
@@ -310,7 +561,12 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_axe_recipe"
+      "registry_name": "bloodiamond_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondSwordRecipe",
@@ -318,7 +574,12 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_sword_recipe"
+      "registry_name": "bloodiamond_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondShovelRecipe",
@@ -326,7 +587,12 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_shovel_recipe"
+      "registry_name": "bloodiamond_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "BloodiamondHoeRecipe",
@@ -334,7 +600,12 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloodiamond_hoe_recipe"
+      "registry_name": "bloodiamond_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/bloodiamond_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "Crawler",
@@ -347,7 +618,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/crawler_chestplate.json",
+          "src/main/java/net/mcreator/paralelum/item/CrawlerItem.java",
+          "src/main/resources/assets/paralelum/models/item/crawler_helmet.json",
+          "src/main/resources/assets/paralelum/models/item/crawler_leggings.json",
+          "src/main/resources/assets/paralelum/models/item/crawler_boots.json"
+        ]
       }
     },
     {
@@ -356,7 +634,15 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "paralelic_pedestal_active"
+      "registry_name": "paralelic_pedestal_active",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/blockstates/paralelic_pedestal_active.json",
+          "src/main/resources/assets/paralelum/models/block/paralelic_pedestal_active.json",
+          "src/main/java/net/mcreator/paralelum/block/ParalelicPedestalActiveBlock.java",
+          "src/main/resources/assets/paralelum/models/item/paralelic_pedestal_active.json"
+        ]
+      }
     },
     {
       "name": "Id30299302993ERRORErrorErrorErrorIncorrectVar",
@@ -364,7 +650,13 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "id_30299302993_error_error_error_error_incorrect_var"
+      "registry_name": "id_30299302993_error_error_error_error_incorrect_var",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/item/Id30299302993ERRORErrorErrorErrorIncorrectVarItem.java",
+          "src/main/resources/assets/paralelum/models/item/id_30299302993_error_error_error_error_incorrect_var.json"
+        ]
+      }
     },
     {
       "name": "ParalelicPedestalOnBlockRightClicked",
@@ -374,6 +666,9 @@
       "locked_code": false,
       "registry_name": "paralelic_pedestal_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/procedures/ParalelicPedestalOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -406,6 +701,9 @@
       "locked_code": false,
       "registry_name": "crawler_helmet_tick_event",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/procedures/CrawlerHelmetTickEventProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -434,6 +732,9 @@
       "locked_code": false,
       "registry_name": "paralelum_player_enters_dimension",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/procedures/ParalelumPlayerEntersDimensionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -462,6 +763,9 @@
       "locked_code": false,
       "registry_name": "paralelum_player_leaves_dimension",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/procedures/ParalelumPlayerLeavesDimensionProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -490,7 +794,12 @@
       "locked_code": false,
       "registry_name": "paralelum",
       "metadata": {
-        "ep": false
+        "ep": false,
+        "files": [
+          "src/main/resources/data/paralelum/dimension/paralelum.json",
+          "src/main/java/net/mcreator/paralelum/world/dimension/ParalelumDimension.java",
+          "src/main/resources/data/paralelum/dimension_type/paralelum.json"
+        ]
       }
     },
     {
@@ -501,6 +810,9 @@
       "locked_code": false,
       "registry_name": "paralelic_pedestal_active_on_block_right_clicked",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/procedures/ParalelicPedestalActiveOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -531,7 +843,314 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "errorrecipe"
+      "registry_name": "errorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/error_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedWood",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/corrupted_wood.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedWoodBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_wood.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedLog",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/CorruptedLogBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_log.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_log.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedPlanks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/blockstates/corrupted_planks.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_planks.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedPlanksBlock.java",
+          "src/main/resources/assets/paralelum/models/item/corrupted_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedLeaves",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/CorruptedLeavesBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_leaves.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_leaves.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedStairs",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/corrupted_stairs_inner.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_stairs_outer.json",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_stairs.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_stairs.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_stairs.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/corrupted_slab_top.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_slab_full.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_slab.json",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_slab.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_slab.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedFence",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paralelum/block/CorruptedFenceBlock.java",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_fence.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_fence.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_inventory.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_post.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedFenceGate",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_gate_wall_open.json",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_fence_gate.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_fence_gate.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_gate.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_gate_wall.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_fence_gate_open.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedPressurePlate",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/models/item/corrupted_pressure_plate.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_pressure_plate_down.json",
+          "src/main/resources/assets/paralelum/blockstates/corrupted_pressure_plate.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedPressurePlateBlock.java",
+          "src/main/resources/assets/paralelum/models/block/corrupted_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedButton",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paralelum/blockstates/corrupted_button.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_button.json",
+          "src/main/resources/assets/paralelum/models/item/corrupted_button.json",
+          "src/main/resources/assets/paralelum/models/block/corrupted_button_inventory.json",
+          "src/main/java/net/mcreator/paralelum/block/CorruptedButtonBlock.java",
+          "src/main/resources/assets/paralelum/models/block/corrupted_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedItemsTag",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/corrupted_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedWoodRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedPlanksRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedStairsRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedSlabRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedFenceRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedButtonRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedStickRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paralelum/recipes/corrupted_stick_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -540,19 +1159,26 @@
     "en_us": {
       "block.paralelum.blood_fence_gate": "Blood Fence Gate",
       "biome.paralelum.blood_forest": "Blood Forest",
+      "block.paralelum.corrupted_log": "Corrupted Log",
       "item.paralelum.id_30299302993_error_error_error_error_incorrect_var": "παράλληλος",
       "item.paralelum.bloodiamond_sword": "Bloodiamond Sword",
       "item.paralelum.bloodiamond_pickaxe": "Bloodiamond Pickaxe",
       "block.paralelum.blood_wood": "Blood Wood",
-      "item.paralelum.bloodiamond_hoe": "Bloodiamond Hoe",
       "item.paralelum.crawler_chestplate": "Crawler Body",
+      "item.paralelum.bloodiamond_hoe": "Bloodiamond Hoe",
+      "block.paralelum.corrupted_slab": "Corrupted Slab",
       "block.paralelum.paralelic_pedestal_active": "Paralelic Pedestal",
-      "item.paralelum.paralelum": "Paralelum Portal Igniter",
+      "block.paralelum.corrupted_planks": "Corrupted Planks",
+      "block.paralelum.corrupted_button": "Corrupted Button",
       "block.paralelum.blood_leaves": "Blood Leaves",
+      "block.paralelum.corrupted_wood": "Corrupted Wood",
       "item.paralelum.bloodiamond_axe": "Bloodiamond Axe",
       "block.paralelum.blood_fence": "Blood Fence",
+      "block.paralelum.corrupted_fence_gate": "Corrupted Fence Gate",
       "block.paralelum.blood_stairs": "Blood Stairs",
       "block.paralelum.blood_pressure_plate": "Blood Pressure Plate",
+      "block.paralelum.corrupted_pressure_plate": "Corrupted Pressure Plate",
+      "block.paralelum.corrupted_stairs": "Corrupted Stairs",
       "block.paralelum.blood_slab": "Blood Slab",
       "block.paralelum.blood_log": "Blood Log",
       "block.paralelum.bloodiamond_block": "Block of Bloodiamond",
@@ -564,8 +1190,10 @@
       "block.paralelum.blood_planks": "Blood Planks",
       "item.paralelum.blood_crawler_spawn_egg": "Blood Crawler Spawn Egg",
       "item.paralelum.crawler_boots": "Crawler Boots",
+      "block.paralelum.corrupted_leaves": "Corrupted Leaves",
       "block.paralelum.paralelic_pedestal": "Paralelic Pedestal",
       "block.paralelum.bloodiamond_ore": "Bloodiamond Ore",
+      "block.paralelum.corrupted_fence": "Corrupted Fence",
       "entity.paralelum.blood_crawler": "Blood Crawler",
       "item.paralelum.crawler_fang": "Crawler Fang"
     }
@@ -592,5 +1220,5 @@
     "modElementsPackage": "net.mcreator.paralelum",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200341417
+  "mcreatorVersion": 202300224119
 }

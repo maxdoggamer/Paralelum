@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -296,6 +296,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
+    "enableIgniter": true,
     "igniterName": "Paralelum Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"

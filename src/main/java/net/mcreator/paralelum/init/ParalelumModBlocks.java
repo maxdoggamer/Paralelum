@@ -12,6 +12,16 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.paralelum.block.ParalelicPedestalBlock;
 import net.mcreator.paralelum.block.ParalelicPedestalActiveBlock;
+import net.mcreator.paralelum.block.CorruptedWoodBlock;
+import net.mcreator.paralelum.block.CorruptedStairsBlock;
+import net.mcreator.paralelum.block.CorruptedSlabBlock;
+import net.mcreator.paralelum.block.CorruptedPressurePlateBlock;
+import net.mcreator.paralelum.block.CorruptedPlanksBlock;
+import net.mcreator.paralelum.block.CorruptedLogBlock;
+import net.mcreator.paralelum.block.CorruptedLeavesBlock;
+import net.mcreator.paralelum.block.CorruptedFenceGateBlock;
+import net.mcreator.paralelum.block.CorruptedFenceBlock;
+import net.mcreator.paralelum.block.CorruptedButtonBlock;
 import net.mcreator.paralelum.block.BloodiamondOreBlock;
 import net.mcreator.paralelum.block.BloodiamondBlockBlock;
 import net.mcreator.paralelum.block.BloodWoodBlock;
@@ -41,6 +51,15 @@ public class ParalelumModBlocks {
 	public static final RegistryObject<Block> BLOOD_BUTTON = REGISTRY.register("blood_button", () -> new BloodButtonBlock());
 	public static final RegistryObject<Block> BLOODIAMOND_ORE = REGISTRY.register("bloodiamond_ore", () -> new BloodiamondOreBlock());
 	public static final RegistryObject<Block> BLOODIAMOND_BLOCK = REGISTRY.register("bloodiamond_block", () -> new BloodiamondBlockBlock());
-	public static final RegistryObject<Block> PARALELIC_PEDESTAL_ACTIVE = REGISTRY.register("paralelic_pedestal_active",
-			() -> new ParalelicPedestalActiveBlock());
+	public static final RegistryObject<Block> PARALELIC_PEDESTAL_ACTIVE = REGISTRY.register("paralelic_pedestal_active", () -> new ParalelicPedestalActiveBlock());
+	public static final RegistryObject<Block> CORRUPTED_WOOD = REGISTRY.register("corrupted_wood", () -> new CorruptedWoodBlock());
+	public static final RegistryObject<Block> CORRUPTED_LOG = REGISTRY.register("corrupted_log", () -> new CorruptedLogBlock());
+	public static final RegistryObject<Block> CORRUPTED_PLANKS = REGISTRY.register("corrupted_planks", () -> new CorruptedPlanksBlock());
+	public static final RegistryObject<Block> CORRUPTED_LEAVES = REGISTRY.register("corrupted_leaves", () -> new CorruptedLeavesBlock());
+	public static final RegistryObject<Block> CORRUPTED_STAIRS = REGISTRY.register("corrupted_stairs", () -> new CorruptedStairsBlock());
+	public static final RegistryObject<Block> CORRUPTED_SLAB = REGISTRY.register("corrupted_slab", () -> new CorruptedSlabBlock());
+	public static final RegistryObject<Block> CORRUPTED_FENCE = REGISTRY.register("corrupted_fence", () -> new CorruptedFenceBlock());
+	public static final RegistryObject<Block> CORRUPTED_FENCE_GATE = REGISTRY.register("corrupted_fence_gate", () -> new CorruptedFenceGateBlock());
+	public static final RegistryObject<Block> CORRUPTED_PRESSURE_PLATE = REGISTRY.register("corrupted_pressure_plate", () -> new CorruptedPressurePlateBlock());
+	public static final RegistryObject<Block> CORRUPTED_BUTTON = REGISTRY.register("corrupted_button", () -> new CorruptedButtonBlock());
 }

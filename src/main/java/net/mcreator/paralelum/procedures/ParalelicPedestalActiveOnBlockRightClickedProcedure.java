@@ -27,8 +27,7 @@ public class ParalelicPedestalActiveOnBlockRightClickedProcedure {
 			return;
 		{
 			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(4 / 2d), e -> true).stream()
-					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(4 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
 				if (entityiterator instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 					ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("paralelum:paralelum"));
@@ -37,8 +36,7 @@ public class ParalelicPedestalActiveOnBlockRightClickedProcedure {
 					ServerLevel nextLevel = _player.server.getLevel(destinationType);
 					if (nextLevel != null) {
 						_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
-						_player.teleportTo(nextLevel, nextLevel.getSharedSpawnPos().getX(), nextLevel.getSharedSpawnPos().getY() + 1,
-								nextLevel.getSharedSpawnPos().getZ(), _player.getYRot(), _player.getXRot());
+						_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
 						_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
 						for (MobEffectInstance _effectinstance : _player.getActiveEffects())
 							_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance));
@@ -54,8 +52,7 @@ public class ParalelicPedestalActiveOnBlockRightClickedProcedure {
 			ServerLevel nextLevel = _player.server.getLevel(destinationType);
 			if (nextLevel != null) {
 				_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
-				_player.teleportTo(nextLevel, nextLevel.getSharedSpawnPos().getX(), nextLevel.getSharedSpawnPos().getY() + 1,
-						nextLevel.getSharedSpawnPos().getZ(), _player.getYRot(), _player.getXRot());
+				_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
 				_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
 				for (MobEffectInstance _effectinstance : _player.getActiveEffects())
 					_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance));

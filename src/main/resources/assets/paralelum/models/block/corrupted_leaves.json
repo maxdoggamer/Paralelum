@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "paralelum:blocks/corrupted_leaves",
+    "particle": "paralelum:blocks/corrupted_leaves"
+  }
+}

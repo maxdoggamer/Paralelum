@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "paralelum:block/corrupted_slab"
+    },
+    "type=top": {
+      "model": "paralelum:block/corrupted_slab_top"
+    },
+    "type=double": {
+      "model": "paralelum:block/corrupted_slab_full"
+    }
+  }
+}

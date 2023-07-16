@@ -18,8 +18,7 @@ public class ParalelicPedestalOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getItem() == ParalelumModItems.ID_30299302993_ERROR_ERROR_ERROR_ERROR_INCORRECT_VAR.get()) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ParalelumModItems.ID_30299302993_ERROR_ERROR_ERROR_ERROR_INCORRECT_VAR.get()) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = ParalelumModBlocks.PARALELIC_PEDESTAL_ACTIVE.get().defaultBlockState();
@@ -36,8 +35,7 @@ public class ParalelicPedestalOnBlockRightClickedProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(ParalelumModItems.ID_30299302993_ERROR_ERROR_ERROR_ERROR_INCORRECT_VAR.get());
-				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-						_player.inventoryMenu.getCraftSlots());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 		}
 	}
